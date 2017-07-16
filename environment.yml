@@ -1,0 +1,27 @@
+name: peopt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python =3.5
+  - bokeh
+  - cloudpickle=0.2.2=py35_0
+  - dask
+  - distributed
+  - ipyparallel
+  - joblib
+  - jupyter
+  - matplotlib
+  - pandas =0.19
+  - pandas-datareader
+  - pytables
+  - snakeviz
+  - ujson
+  - memory_profiler
+  - line_profiler
+  - ipdb
+  - holoviews
+  - cython 
+  - numba
+
+
