@@ -25,15 +25,15 @@ and then create the ``peopt`` environment by executing::
 ```
    > conda env create -f environment.yml
 ```
-When installation is complete you may activate the environment by writing:
+When installation is complete you must activate the environment. If you
+are on Windows:
 ```
    > activate peopt
 ```
-(for Windows) or:
+If you are using OSX/Linux:
 ```
    $ source activate peopt
 ```
-(for Linux and Mac). 
 
 Later, when you are ready to exit the environment after the tutorial, you can type:
 ```
