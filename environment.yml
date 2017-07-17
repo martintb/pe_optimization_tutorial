@@ -23,5 +23,6 @@ dependencies:
   - holoviews
   - cython 
   - numba
+  - graphviz
 
 
