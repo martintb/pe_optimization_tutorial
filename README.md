@@ -91,4 +91,4 @@ that appears in your terminal that you should copy and paste into your browser.
 Credits
 -------
 This style and layout of this tutorial was adapted from:
-https://github.com/ioam/scipy-2017-holoviews-tutorial/blob/master/README.rst
+https://github.com/ioam/scipy-2017-holoviews-tutorial
