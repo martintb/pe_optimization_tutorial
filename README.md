@@ -63,7 +63,9 @@ Later, when you are ready to exit the environment after the tutorial, you can ty
 ```
 If for some reason you want to remove the environment entirely, you can do so by writing:
 
+```
    > conda env remove --name peopt
+```
 
 
 Step 3: Launch Jupyter Notebook
