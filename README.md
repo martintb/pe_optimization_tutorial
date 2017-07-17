@@ -1,26 +1,35 @@
 Basic Python Optimization Tutorial
 ==================================
+In this tutorial, we will explore a number of different acceleration approaches
+and libraries for Python code. We will use a real-world science example to do 
+this, namely the potential energy calculation from a molecular simulation. This 
+example is simple enough for those not familiar with molecular simulation, but 
+still a performance critical chunk of real simulation codes. Can we optimize 
+this calculation in a language that is not known for runtime performance?
 
 Goals
 -----
-- Explore a number of different code runtime optimization paradigms and toolsets in Python
+- Explore a number of different code runtime optimization paradigms and 
+toolsets in Python
     - Numpy
     - Numba
     - Cython
     - Dask
+- Demonstrate the programming idioms of these libraries and tools
 - Compare runtime vs memory optimization and the tradeoffs
 - Expose the audience to various code profiling tools and techniques:
     - prun
     - memory_profiler
-    - snakeviz
-    - cython-python interaction profiling
+    - Snakeviz
+    - Cython-Python interaction profiling
 - Demo other useful Python libraries and tools:
+    - Jupyter Notebooks
     - Bokeh
     - Holoviews
     - Pandas
 
 **Disclaimer**
-The author of this notebook isn't necessarily an expert in *all* of these 
+The author of this repo isn't necessarily an expert in *all* of these 
 toolsets. If you have improvements or suggestions, please submit an issue
 or pull request.
 
