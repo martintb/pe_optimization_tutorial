@@ -1,11 +1,33 @@
-Current a WIP!
+Basic Python Optimization Tutorial
+==================================
 
+Goals
+-----
+- Explore a number of different code runtime optimization paradigms and toolsets in Python
+    - Numpy
+    - Numba
+    - Cython
+    - Dask
+- Compare runtime vs memory optimization and the tradeoffs
+- Expose the audience to various code profiling tools and techniques:
+    - prun
+    - memory_profiler
+    - snakeviz
+    - cython-python interaction profiling
+- Demo other useful Python libraries and tools:
+    - Bokeh
+    - Holoviews
+    - Pandas
 
-Basic Python Optimization Tutorial Setup
-========================================
+**Disclaimer**
+The author of this notebook isn't necessarily an expert in *all* of these 
+toolsets. If you have improvements or suggestions, please submit an issue
+or pull request.
+
+Setup
+=====
 This document explains how to get your computer set up for the
 tutorial, including how to install the software libraries.
-
 
 Step 1: Clone this repo
 -----------------------
