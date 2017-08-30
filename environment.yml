@@ -24,5 +24,6 @@ dependencies:
   - cython 
   - numba
   - graphviz
+  - jupyter_contrib_nbextensions 
 
 
